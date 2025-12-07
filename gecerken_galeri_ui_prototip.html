@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+
+<html class="light" lang="tr"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Galeri - Bursa Teknik Üniversitesi Geçerken Topluluğu</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700;800&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script>
+    tailwind.config = {
+      darkMode: "class",
+      theme: {
+        extend: {
+          colors: {
+            "primary": "#135bec",
+            "background-light": "#f6f6f8",
+            "background-dark": "#101622",
+          },
+          fontFamily: {
+            "display": ["Manrope", "sans-serif"]
+          },
+          borderRadius: {
+            "DEFAULT": "0.25rem",
+            "lg": "0.5rem",
+            "xl": "0.75rem",
+            "full": "9999px"
+          },
+        },
+      },
+    }
+  </script>
+<style>
+    .material-symbols-outlined {
+      font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+    }
+  </style>
+</head>
+<body class="font-display bg-background-light dark:bg-background-dark">
+<div class="relative flex h-auto min-h-screen w-full flex-col group/design-root overflow-x-hidden">
+<div class="layout-container flex h-full grow flex-col">
+<div class="px-4 md:px-10 lg:px-20 xl:px-40 flex flex-1 justify-center py-5">
+<div class="layout-content-container flex flex-col w-full max-w-6xl flex-1">
+<header class="flex items-center justify-between whitespace-nowrap border-b border-solid border-gray-200 dark:border-gray-800 px-4 sm:px-6 lg:px-10 py-3">
+<div class="flex items-center gap-4 text-gray-900 dark:text-gray-100">
+<div class="size-6 text-primary">
+<svg fill="none" viewbox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_6_535)">
+<path clip-rule="evenodd" d="M47.2426 24L24 47.2426L0.757355 24L24 0.757355L47.2426 24ZM12.2426 21H35.7574L24 9.24264L12.2426 21Z" fill="currentColor" fill-rule="evenodd"></path>
+</g>
+<defs>
+<clippath id="clip0_6_535">
+<rect fill="white" height="48" width="48"></rect>
+</clippath>
+</defs>
+</svg>
+</div>
+<h2 class="text-gray-900 dark:text-gray-100 text-lg font-bold leading-tight tracking-[-0.015em] hidden sm:block">Bursa Teknik Üniversitesi Geçerken Topluluğu</h2>
+</div>
+<div class="flex flex-1 justify-end gap-2 sm:gap-4 md:gap-8">
+<nav class="hidden md:flex items-center gap-6 lg:gap-9">
+<a class="text-gray-700 dark:text-gray-300 hover:text-primary dark:hover:text-primary text-sm font-medium leading-normal" href="#">Ana Sayfa</a>
+<a class="text-gray-700 dark:text-gray-300 hover:text-primary dark:hover:text-primary text-sm font-medium leading-normal" href="#">Etkinlikler</a>
+<a class="text-primary dark:text-primary text-sm font-bold leading-normal" href="#">Galeri</a>
+<a class="text-gray-700 dark:text-gray-300 hover:text-primary dark:hover:text-primary text-sm font-medium leading-normal" href="#">Hakkımızda</a>
+<a class="text-gray-700 dark:text-gray-300 hover:text-primary dark:hover:text-primary text-sm font-medium leading-normal" href="#">İletişim</a>
+</nav>
+<button class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-10 px-4 bg-primary text-white text-sm font-bold leading-normal tracking-[0.015em]">
+<span class="truncate">Giriş Yap</span>
+</button>
+</div>
+</header>
+<main class="flex flex-col gap-6 p-4">
+<div class="flex flex-wrap justify-between gap-4 py-4">
+<div class="flex min-w-72 flex-col gap-3">
+<p class="text-gray-900 dark:text-gray-50 text-4xl font-black leading-tight tracking-[-0.033em]">Galeri</p>
+<p class="text-gray-600 dark:text-gray-400 text-base font-normal leading-normal">Topluluk faaliyetlerimizden, etkinliklerden ve sosyal buluşmalardan anılar.</p>
+</div>
+</div>
+<div class="flex gap-2 p-3 overflow-x-auto w-full">
+<button class="flex h-8 shrink-0 cursor-pointer items-center justify-center gap-x-2 rounded-full bg-primary/20 dark:bg-primary/30 pl-4 pr-4">
+<p class="text-primary dark:text-gray-100 text-sm font-bold leading-normal">Tümü</p>
+</button>
+<button class="flex h-8 shrink-0 cursor-pointer items-center justify-center gap-x-2 rounded-full bg-gray-200 dark:bg-gray-800 hover:bg-gray-300 dark:hover:bg-gray-700 pl-4 pr-4">
+<p class="text-gray-800 dark:text-gray-300 text-sm font-medium leading-normal">Teknik Geziler</p>
+</button>
+<button class="flex h-8 shrink-0 cursor-pointer items-center justify-center gap-x-2 rounded-full bg-gray-200 dark:bg-gray-800 hover:bg-gray-300 dark:hover:bg-gray-700 pl-4 pr-4">
+<p class="text-gray-800 dark:text-gray-300 text-sm font-medium leading-normal">Sosyal Etkinlikler</p>
+</button>
+<button class="flex h-8 shrink-0 cursor-pointer items-center justify-center gap-x-2 rounded-full bg-gray-200 dark:bg-gray-800 hover:bg-gray-300 dark:hover:bg-gray-700 pl-4 pr-4">
+<p class="text-gray-800 dark:text-gray-300 text-sm font-medium leading-normal">Atölye Çalışmaları</p>
+</button>
+<button class="flex h-8 shrink-0 cursor-pointer items-center justify-center gap-x-2 rounded-full bg-gray-200 dark:bg-gray-800 hover:bg-gray-300 dark:hover:bg-gray-700 pl-4 pr-4">
+<p class="text-gray-800 dark:text-gray-300 text-sm font-medium leading-normal">Seminerler</p>
+</button>
+<button class="flex h-8 shrink-0 cursor-pointer items-center justify-center gap-x-2 rounded-full bg-gray-200 dark:bg-gray-800 hover:bg-gray-300 dark:hover:bg-gray-700 pl-4 pr-4">
+<p class="text-gray-800 dark:text-gray-300 text-sm font-medium leading-normal">Kampüs Hayatı</p>
+</button>
+</div>
+<div class="grid grid-cols-[repeat(auto-fit,minmax(200px,1fr))] gap-4 p-4">
+<div class="bg-cover bg-center flex flex-col gap-3 rounded-lg justify-end p-4 aspect-[3/4] group cursor-pointer" data-alt="Students collaborating in a robotics workshop" style='background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0) 100%), url("https://lh3.googleusercontent.com/aida-public/AB6AXuBBQI7k_ZnzCKlouvs0XCMw43nNKsr6zB-qLIktx2CwPsEgzXHFv6cKLL9iITKIBx7H0ZdS5LVicZYkRyjWSb_w79PoXlRGB3DIt6gu8g86A6qpFRTgvpkXpI2x8GEoRFISQ2T-wcTtO8J_Gwm5YI8SOFXgRJKkZe_uJDhsUVxRo6uy2nOtlkRjtlazLayGmf61tNh8AiashImuDSPAO26q0TnIxsM48H8Wk58zjla9bVT_meWSsBOuUESpXV2Zy9u5_9OJ0zoOL2Q_");'>
+<p class="text-white text-base font-bold leading-tight w-full line-clamp-3 transform transition-transform duration-300 group-hover:-translate-y-2">Robotik Atölyesi - Güz 2023</p>
+</div>
+<div class="bg-cover bg-center flex flex-col gap-3 rounded-lg justify-end p-4 aspect-[3/4] group cursor-pointer" data-alt="Group photo at a technology fair" style='background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0) 100%), url("https://lh3.googleusercontent.com/aida-public/AB6AXuD_5QWLhgqT6U9xJpSiRfLNkga7CqoKNsbi6mh3TiuGSDwwToilhN76sYF-7TfkW9QgcY7fhwwmCyoTOzXyy6TMsVLS-lHNMfuIiKmpE-IUnRp2cuyFO5xAzNRr-1c1hbbtby3oHPtsXhpL4KZyrPNtcftpvKIGD7RnxIK0re7Lr4bfhvC6UGphjZStnO7yD5Np7NOxkwMRB8ZimVPc0wqalAautozTVFDLoGh5Z-B6sccxdURXPSkXu-0uSuznlcmg6YHPk_-OSHcI");'>
+<p class="text-white text-base font-bold leading-tight w-full line-clamp-3 transform transition-transform duration-300 group-hover:-translate-y-2">Ankara Teknoloji Fuarı Ziyareti</p>
+</div>
+<div class="bg-cover bg-center flex flex-col gap-3 rounded-lg justify-end p-4 aspect-[3/4] group cursor-pointer" data-alt="Students enjoying breakfast together" style='background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0) 100%), url("https://lh3.googleusercontent.com/aida-public/AB6AXuBXxisgyt5jntoJyOKYdr38A_uY3r5MXTVGG6bRrexTGFY5d5wys-PEWsfPq2mYfdYNZStD1qVJ2-PZXDHGTRazMuAjkkbinUyNuPrehYt9k8YMQ4SVLBH0uYiYTgkcBZm5ijqVo1C4VGs6_gJ7L5MQJ8Q7ffi-b5BC6FNEa3ZGAEFtsNB6hIJAlZxEw2ARllU0_2LF46w6pRtmiqbFmVqRgnarzxVQr-JzwLkOX4PAkHefO2cSoDL_R9gJN0RIseq0gA08zkXKQsxb");'>
+<p class="text-white text-base font-bold leading-tight w-full line-clamp-3 transform transition-transform duration-300 group-hover:-translate-y-2">Güz Dönemi Tanışma Kahvaltısı</p>
+</div>
+<div class="bg-cover bg-center flex flex-col gap-3 rounded-lg justify-end p-4 aspect-[3/4] group cursor-pointer" data-alt="Graduates in caps and gowns celebrating" style='background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0) 100%), url("https://lh3.googleusercontent.com/aida-public/AB6AXuD5xH-nEpDB1SsfETtkpl2rmK8RyGLWti-yxhYLG4fc8wx-zuQnSAxV_oQVF-Lxcqbo4ukPk_yseq2AqenZWg-MrSUl_ttb5Bk8rzh9Eb3tg8URPMrAwT3bXzrqmXI5ifk7Jz-N1UmJOVict47IowiKoZrzrsEOMlJhXSShEiFFIXoh018GjhONZL7XTfXjPNy90hWf4ZigT2wflnfc6uXRCdjlFpidUmQ0LatFpP5z6Fy6oBTsgUNo19zE3ccllT5KV9FtsJQv2mqJ");'>
+<p class="text-white text-base font-bold leading-tight w-full line-clamp-3 transform transition-transform duration-300 group-hover:-translate-y-2">Mezuniyet Töreni</p>
+</div>
+<div class="bg-cover bg-center flex flex-col gap-3 rounded-lg justify-end p-4 aspect-[3/4] group cursor-pointer" data-alt="A person working on a 3D model on a computer" style='background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0) 100%), url("https://lh3.googleusercontent.com/aida-public/AB6AXuAaP_aWyfR7Sy1Ip7B8_gvoWefYhBpcxvnEazGv9wszFmDiXRquAsvlfuTbkfkfVz89eOX-J3YXsqxH53Aj5RFieZGyZ9iPFjN4kfrLlAMzmhyIfEV1nZQHGyKJjvGfzDYvECBpmE0brWElEJCrSG6wMTtoVsQYH6NzKX7swTH0fROeKXMfsAZcv-9J6KWtCg31sYAW_WVQoVZNxeJTDYThHFKInfsc1WCTV23KshE_IacgGmtUAnWtXn6f41f-5jYyltlJH8ujcgIu");'>
+<p class="text-white text-base font-bold leading-tight w-full line-clamp-3 transform transition-transform duration-300 group-hover:-translate-y-2">3D Modelleme Workshop</p>
+</div>
+<div class="bg-cover bg-center flex flex-col gap-3 rounded-lg justify-end p-4 aspect-[3/4] group cursor-pointer" data-alt="A crowd enjoying an outdoor spring festival" style='background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0) 100%), url("https://lh3.googleusercontent.com/aida-public/AB6AXuBvEEcLtwZLFUb_DaXE7Tr6ocStzRMNaVre3eddkHr_BoDVemccuII3c-LIXHIFmJYT8qSMUM7IlKeVX93xFS7OJCyMLOm-fqGmoKINUir8jkas-yWjjM2rkBQ8b329fHsxeZ8tJ8mUUb29ITRNRO5GgydxkETRlYcNGirwUjKTBQRr3mABztV36kLVr1S4HpUEPpkEqIOJWlkK_byjBooPpHCeN0B-5VGvOgGgPvnGRpqYnqOzzWdWyTelAsHdL-vP1T9K-5lUDo1L");'>
+<p class="text-white text-base font-bold leading-tight w-full line-clamp-3 transform transition-transform duration-300 group-hover:-translate-y-2">Bahar Şenlikleri</p>
+</div>
+<div class="bg-cover bg-center flex flex-col gap-3 rounded-lg justify-end p-4 aspect-[3/4] group cursor-pointer" data-alt="Speaker presenting at a software seminar" style='background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0) 100%), url("https://lh3.googleusercontent.com/aida-public/AB6AXuBXLAWv0CI1ZZ7Nm6ZsOYTuD10aZ5nUl03iVIvByuwReO-nEZdlTGa6NeXmDmHRHTjJ-yJv4mKOKNPNHjWtYAmmQxswM6E-1_GxyYI_GQMliEWdltNrZ8rjCkuo9feuWix7mxYqKqYH0O-3fcMg80ocpI46bxZS4J34bRp8MVXU7jKa0RnIDyE17y4mr6cNc_Kz77hcq2ACwDQZHKwwUd5r2q8uvo2GWtrq7yX0jUiUCbor9CX7Y8FvEaVwlan1iLzd7xztVFLcH3nF");'>
+<p class="text-white text-base font-bold leading-tight w-full line-clamp-3 transform transition-transform duration-300 group-hover:-translate-y-2">Yazılım Semineri</p>
+</div>
+<div class="bg-cover bg-center flex flex-col gap-3 rounded-lg justify-end p-4 aspect-[3/4] group cursor-pointer" data-alt="Students having a picnic on campus grounds" style='background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0) 100%), url("https://lh3.googleusercontent.com/aida-public/AB6AXuA44TNx2KbM-_DLDrdouLIJO3Ujpq4rkJn50Cr2PKWWGuUWAxze7tkt0wFwcf5TIvtOEGfjArJlP-mYD1XiuWxyQ6L6mr_6qSmuSuif1-YQuvXkg9gRD6VoOL3QDREaHqBNVvHbY5Vpkb8xaxsrCQ1eL2nqR5wYuOgWIfaa3OeK0BB-kyYbWO8Tu6yb79X-XSObCz73lUqW_kPFNGbf1wZAZOpOmt9j7chlLfgS0Yl9g379oHd_NJWBsfJbQbvgLc_l55vEFBaHP98u");'>
+<p class="text-white text-base font-bold leading-tight w-full line-clamp-3 transform transition-transform duration-300 group-hover:-translate-y-2">Kampüs Pikniği</p>
+</div>
+</div>
+<div class="flex items-center justify-center p-4">
+<a class="flex size-10 items-center justify-center text-gray-600 dark:text-gray-400 hover:text-primary dark:hover:text-primary" href="#">
+<span class="material-symbols-outlined">chevron_left</span>
+</a>
+<a class="text-sm font-bold leading-normal tracking-[0.015em] flex size-10 items-center justify-center text-white bg-primary rounded-full" href="#">1</a>
+<a class="text-sm font-normal leading-normal flex size-10 items-center justify-center text-gray-800 dark:text-gray-200 hover:bg-gray-200 dark:hover:bg-gray-800 rounded-full" href="#">2</a>
+<a class="text-sm font-normal leading-normal flex size-10 items-center justify-center text-gray-800 dark:text-gray-200 hover:bg-gray-200 dark:hover:bg-gray-800 rounded-full" href="#">3</a>
+<span class="text-sm font-normal leading-normal flex size-10 items-center justify-center text-gray-500 dark:text-gray-400 rounded-full">...</span>
+<a class="text-sm font-normal leading-normal flex size-10 items-center justify-center text-gray-800 dark:text-gray-200 hover:bg-gray-200 dark:hover:bg-gray-800 rounded-full" href="#">8</a>
+<a class="text-sm font-normal leading-normal flex size-10 items-center justify-center text-gray-800 dark:text-gray-200 hover:bg-gray-200 dark:hover:bg-gray-800 rounded-full" href="#">9</a>
+<a class="text-sm font-normal leading-normal flex size-10 items-center justify-center text-gray-800 dark:text-gray-200 hover:bg-gray-200 dark:hover:bg-gray-800 rounded-full" href="#">10</a>
+<a class="flex size-10 items-center justify-center text-gray-600 dark:text-gray-400 hover:text-primary dark:hover:text-primary" href="#">
+<span class="material-symbols-outlined">chevron_right</span>
+</a>
+</div>
+</main>
+</div>
+</div>
+</div>
+</div>
+</body></html>
